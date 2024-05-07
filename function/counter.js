@@ -1,3 +1,7 @@
+
+var count = 0 ;
+
+
 // Increment Function
 
 var count = 0;
