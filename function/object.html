@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        //  how to Create an object
+        var studentDetails = {
+            name: "yuvraj",
+            student_id: "TP-01",
+            courses: ["React", "Angular", "Python"],
+            batch_code: ["TP-RP-06"],
+            skills: ["HTML", "CSS", "JAVASCRIPT"],
+            placed: false,
+
+            addCourse: function (courses) {
+                studentDetails.courses.push(courses)
+            },
+        };
+        console.log(studentDetails);
+
+        //accessing value 
+        console.log("Student ID", studentDetails.student_id);
+        console.log("Name", studentDetails.name);
+
+        console.log("Courses", studentDetails["courses"]);
+
+
+
+    </script>
+</body>
+
+</html>
